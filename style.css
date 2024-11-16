@@ -1,0 +1,67 @@
+*{
+    text-align: center;
+}
+input{
+    height: 2rem;
+    width: 15rem;
+    font-size: 1.2rem;
+}
+#quit{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    height: 2rem;
+    width: fit-content;
+    padding: 0 1rem 0 1rem;
+    border-radius: 0.5rem;
+}
+#submit{
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    height: 2rem;
+    width: fit-content;
+    border-radius: 0.5rem;
+    padding: 0 1rem 0 1rem;
+    margin-left: 3rem;
+}
+
+p{
+    margin: 1.5rem auto;
+    height: 2rem;
+    width: fit-content;
+    padding: 0 2rem 0 2rem;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    color: rgb(28, 28, 28);
+}
+.win{
+    background-color: green;
+    color: white;
+}
+.lose{
+    background-color: red;
+    color: white;
+}
+.playGame{
+    background-color: rgb(254, 165, 0);
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    padding: 0 1rem 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: brown;
+}
+.hide{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
